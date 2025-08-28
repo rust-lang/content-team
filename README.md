@@ -2,6 +2,8 @@
 
 Welcome to the [`t-content`](https://www.rust-lang.org/governance/teams/launching-pad#team-content) repo!
 
+<img src="./branding/t-content-mascot.svg" alt="t-content mascot" width="150"/>
+
 ## Mission
 
 We create publishable content for the Rust Project from interviews to share with the entire Rust community. If you'd like a deep dive on our mission, see [here](./TEAM-MISSION.md).
