@@ -1,6 +1,6 @@
 # The Rust Content Team - `t-content`
 
-Welcome to the `t-content` repo!
+Welcome to the [`t-content`](https://www.rust-lang.org/governance/teams/launching-pad#team-content) repo!
 
 ## Mission
 
