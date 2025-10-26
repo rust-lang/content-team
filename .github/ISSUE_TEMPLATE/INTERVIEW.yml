@@ -41,3 +41,33 @@ body:
       placeholder: Foo has been involved with activity Baz and could share about how they Hoge'd this.
     validations:
       required: true
+  - type: input
+    id: interviewer-name
+    attributes:
+      label: Interviewer name
+      description: |
+        Name of interviewer
+        (not relevant if requesting you be interviewed)
+      placeholder: Hoge Baz
+    validations:
+      required: false
+  - type: input
+    id: editor-name
+    attributes:
+      label: Editor name
+      description: |
+        Name of editor
+        (not relevant if requesting you be interviewed)
+      placeholder: Hoge Baz
+    validations:
+      required: false
+  - type: input
+    id: reviewer-name
+    attributes:
+      label: Reviewer name
+      description: |
+        Name of reviewer
+        (not relevant if requesting you be interviewed)
+      placeholder: Hoge Baz
+    validations:
+      required: false
