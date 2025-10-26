@@ -22,8 +22,8 @@ body:
       label: Request
       description: Are you requesting to be interviewed?
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
   - type: input
