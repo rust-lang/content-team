@@ -1,0 +1,47 @@
+name: Interview
+description: Add an interview
+title: "[Interview]: Interview of XX YY"
+labels: ["interview", "intake"]
+assignees:
+  - cldershem
+  - LoriLorusso
+  - MerrimanInd
+  - PLeVasseur
+  - traviscross
+  - tmandry
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill in the following to add an interview.
+
+        If you're looking to request to be interviewed, please note so in the drop-down below.
+  - type: dropdown
+    id: request
+    attributes:
+      label: Request
+      description: Are you requesting to be interviewed?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: input
+    id: interviewee-name
+    attributes:
+      label: Interviewee name
+      description: Name of interviewee
+      placeholder: Foo Bar
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance to the Rust Project and Rust community
+      description: |
+        Please supply the relevance of this interviewee to the Content Team's
+        [Team Mission](./TEAM-MISSION.md). Submissions lacking this may not
+        be considered.
+      placeholder: Foo has been involved with activity Baz and could share about how they Hoge'd this.
+    validations:
+      required: true
