@@ -3,12 +3,8 @@ description: Add an interview
 title: "[Interview]: Interview of XX YY"
 labels: ["interview", "intake"]
 assignees:
-  - cldershem
-  - LoriLorusso
-  - MerrimanInd
   - PLeVasseur
   - traviscross
-  - tmandry
 body:
   - type: markdown
     attributes:
