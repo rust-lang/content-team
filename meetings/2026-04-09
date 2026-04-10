@@ -1,0 +1,85 @@
+---
+title: 2026-04-09 - `t-content` meeting
+tags: ["T-content", "meeting", "minutes"]
+date: 2026-04-09
+discussion: https://rust-lang.zulipchat.com/#narrow/channel/523012-t-content/topic/2026-04-09.20meeting/with/584345659
+url: https://hackmd.io/@rust-content-team/r1zwfrajbl
+---
+
+# 2026-04-09 - `t-content` Meeting
+
+## Attendance
+
+### Attendees
+
+- Pete LeVasseur
+- Cameron Dershem
+- Tomas Sedovic
+- TC
+
+### Regrets
+
+- Tyler Mandry
+- Lori
+- Nurzhan Saken
+
+## Agenda
+
+- Solicitation of notetaker
+- t-content funding via Council
+- Interviews Tyler <=> Pete had audio ducking issues
+  - Maybe we punt this now to the professional editor
+- Release notes content recording
+    - @tmandry, @pinkhatbeard, @plevasseur plan to make a run at 1.95.0 for if-let guards next week
+
+### Notetaker
+
+- Tomas
+
+### T-content funding via Council
+
+Pete: How are you feeling about the funding request progress?
+
+TC: Two weeks ago I [put up a proposal for funding](https://github.com/rust-lang/leadership-council/pull/279) the Content team. We talked about it at the Council meeting. People agreed it's not a lot of money. I mentioned the money would help because this is a highly specialized task — one that we're not specialized in. This will allow the people on the team to do what they're are good at — e.g., finding people to interview and interviewing them. People understood. Some asked that we first [put it out more widely](https://rust-lang.zulipchat.com/#narrow/channel/392734-council/topic/Content.20team.20funding/with/583132345), which we've done.
+
+TC: I'm hoping it'll go through tomorrow, but there's a lot of tension in the Project right now. We'll see.
+
+Pete: It sounds like it's probably going to happen but it needs to go through the process. TC's going to shepherd it.
+
+TC: Yes, I'll keep pushing.
+
+TC: Someone brought up that if we bought equipment, the Foundation would have to depreciate it, etc. I agree — this is why I'd mentioned renting previously in our discussions — so it's better if we don't have to own it. It's easier for our book keeping and easier on the Foundation.
+
+Cameron: I brought that up earlier as well. Renting is really common in this kind of world. Once we own stuff, we have to insure it too. Lots of bad stuff can happen. It's easier if we can hire it out. But I have equipment we can use, but I don't want to ship it around the world. I'd be okay shipping it to people here but not any random person.
+
+Tomas: The issue talks about $4k for equipment. How do we square that?
+
+TC: The line item is about equipment generally — it says buying or renting.  Probably we'd rent.
+
+Cameron: The lighting we rented in an earlier event. It was around $500. So $4k would get us maybe 4 events. That sounds about right.
+
+### Interviews Tyler <=> Pete had audio ducking issues
+
+Pete: I tried to edit it, I'll still need to try and do more to get it cleaned up. But I don't have a lot of time. I hope the budget comes through and we'll get a professional to do this. I enjoyed learning it, but I don't have abundance of time. I'll pause and not revise them further. And wait for the budget.
+
+### Reviewing editing processes
+
+Pete: I talked about this in the editing process meeting we had on Friday last week. The takeaway was: let's pause it all. Editing will be done for us. We'll table it for now.
+
+### Release notes content recording
+
+Cameron: I tried to make a new title card. I sent it to the rust [release videos topic on zulip](https://rust-lang.zulipchat.com/#narrow/channel/523013-t-content.2Fprivate/topic/Rust.20Release.20Overview.20Video/near/584031554). Tyler, Pete and I had a call recently about the Rust release video. Our current plan is to try and shoot a release video on Wednesday next week (day before the release gets cut). We hope to release it on the day of the 1.95 release. None of us have done the remote Riverside remote video thing. We'll test that on Monday.
+
+Cameron: Our plan right now is: it'll be the three of us. I'll try to write an outline this weekend. I'll give an intro and then we'll go through what's in the release. We don't know how releases.rs work. We thought it was automated, but it's not. We'll discuss that on the video as a topic for the next time. The main thing we'll talk about is `if let` guards. Tyler's coming up with a little playground of code examples. He wrote some code a week ago that he hoped to clean up with if let guards. That lets people ask questions on why is this the syntax etc. We're hoping we can get some feedback and comments on the first video. I'm trying to not script out too much. The three of us -- as involved as we are -- don't know what the process is.
+
+Cameron: The next thing is doing the test on Monday and see how Riverside works. Tyler's working on code snippets, I'll make the script. We'll need title cards -- I put one on Zulip the other day.
+
+Pete: This reminded me to reach out to t-release to see if someone could come and talk to us a little bit. In T-FLS we're looking to be more involved in the release process and see how we can help them help us. Mark (simulacrum) came to T-FLS last week and shared some things with us. They're happy to let T-FLS contribute. That gives me an in to go back there and ask to hear more about what it's like, share some stuff with us etc.
+
+Pete: I have a seat for Riverside from Lori.
+
+Cameron: Getting someone from the release team would be great for the release in May. This one is too soon to do it. More often Rust releases are more boring than exciting (which is good for those of us that we've been around a while). And that would be a good opportunity to talk about the release topic.
+
+### Action items
+
+* xx
